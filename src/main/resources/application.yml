@@ -1,0 +1,4 @@
+trainlocation:
+       url : http://202.131.103.151:9145/train-locations.json
+
+geocoderApiKey : AIzaSyDh7mwI-mWAjmXTE4BRLBn3HkmMyKVkXFM
