@@ -9,9 +9,7 @@ public class TrainDetails {
 	private Date timestamp;
 	private Location location;
 	private Integer speed;
-	
-	private String trainAddress; 
-	
+	private String trainAddress;
 
 	public Long getTrainNumber() {
 		return trainNumber;
@@ -60,7 +58,5 @@ public class TrainDetails {
 	public void setTrainAddress(String trainAddress) {
 		this.trainAddress = trainAddress;
 	}
-	
-	
 
 }
