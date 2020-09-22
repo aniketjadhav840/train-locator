@@ -24,8 +24,11 @@ public class GeoLocationProcessor implements Processor {
 
 	@Produce
 	ProducerTemplate producerTemplate;
+	
+	@Value("${locationApi.url}")
+	String locationApiUrl;
 
-	@Value("${geocoderApiKey}")
+	@Value("${locationApi.key}")
 	String apiKey;
 
 	private ObjectMapper mapper = new ObjectMapper();
