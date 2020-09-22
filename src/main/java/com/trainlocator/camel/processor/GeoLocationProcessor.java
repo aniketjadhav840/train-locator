@@ -41,7 +41,7 @@ public class GeoLocationProcessor implements Processor {
 
 			Trains trains = exchange.getIn().getBody(Trains.class);
 
-			trains.getTrains().forEach(traindetails -> {
+			trains.getTrains().parallelStream().forEach(traindetails -> {
 
 				String ob = fetchTrainAddress(traindetails.getLocation().getCoordinates());
 
