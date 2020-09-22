@@ -1,4 +1,6 @@
 trainlocation:
        url : http://202.131.103.151:9145/train-locations.json
 
-geocoderApiKey : 02d1d32448324bd79b19ad69bba1d7ae
+locationApi :
+       url : https://api.opencagedata.com/geocode/v1/json?q=
+       key : 02d1d32448324bd79b19ad69bba1d7ae
